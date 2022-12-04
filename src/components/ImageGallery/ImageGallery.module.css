@@ -1,0 +1,14 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(4, auto);
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
